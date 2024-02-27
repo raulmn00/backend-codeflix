@@ -43,3 +43,5 @@ name
 raw_location - novo valor
 encoded_location
 status = completed
+
+editando readme.md
