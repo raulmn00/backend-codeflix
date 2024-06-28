@@ -8,5 +8,6 @@ describe('Category Entity Unit Tests', () => {
     expect(category.is_active).toBeTruthy();
     expect(category.name).toBe('movie');
     expect(category.created_at).toBeInstanceOf(Date);
+    expect(category).toBeDefined();
   });
 });
